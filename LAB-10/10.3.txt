@@ -1,0 +1,21 @@
+public class Lab10Task03{
+  public static void main(String[] args){
+    int number[]={7,13,-5,10,6};
+    int max=number[0]; int maxIndex=0;
+    for(int i=0; i<number.length; i++){
+      if(number[i]>max){
+        max=number[i];
+        maxIndex=i;
+      }
+    }
+    int min=number[0]; int minIndex=0;
+    for(int j=0; j<number.length; j++){
+      if(number[j]<min){
+        min=number[j];
+        minIndex=j;
+      }
+    }
+    System.out.println("Largest number"+max+"is at location"+maxIndex);
+    System.out.println("Smallest number"+min+"is at location"+minIndex);
+  }
+}
