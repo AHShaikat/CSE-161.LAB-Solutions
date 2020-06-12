@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class task3{
+  public static void main(String[]args){
+    Scanner sc= new Scanner(System.in);
+    
+    System.out.println("enter the value of 3");
+     
+    int a[]= new int[3];
+      
+      for(int i=0; i < a.length ;i++){
+          a[i] =sc.nextInt();
+          
+  }
+    System.out.println( );
+    for (int j=a.length-1; j>=0 ;j--)
+    {
+       System.out.println( a[j] );
+    }
+  }
+}
+
